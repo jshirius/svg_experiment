@@ -1,0 +1,15 @@
+<style>
+.vertical_movement {
+  animation: move-y .5s infinite alternate ease-in-out;
+  display: inline-block;
+  color: red;
+}
+@keyframes move-y {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+</style>
